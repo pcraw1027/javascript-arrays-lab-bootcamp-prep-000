@@ -19,9 +19,10 @@ function destructivelyRemoveFirstKitten() {
 }
 
 var newKitten = "Broom"
-function appendKitten(newKitten) {
+var newArray = function appendKitten(newKitten) {
   // var newKitten = "Broom";
-  var newArray = [...kittens, newKitten];
+  // var newArray = [...kittens, newKitten];
+  [...kittens, newKitten];
 }
 
 function prependKitten(newkitten) {
