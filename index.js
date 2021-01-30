@@ -18,10 +18,10 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift()
 }
 
-//var newkitten = "Broom"
+// var newKitten = "Broom"
 function appendKitten(newkitten) {
-  var newkitten = "Broom";
-  [...kittens,newkitten];
+  var newKitten = "Broom";
+   var newArray[...kittens, newKitten];
 }
 
 function prependKitten(newkitten) {
