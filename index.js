@@ -19,11 +19,11 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(newkitten) {
-  newkitten = "Broom"
-  [...kittens,newkitten]
+  newkitten = "Broom";
+  [...kittens,newkitten];
 }
 
 function prependKitten(newkitten) {
-  newkitten = "Arnold"
-  [newkitten,...kittens]
+  newkitten = "Arnold";
+  [newkitten,...kittens];
 }
