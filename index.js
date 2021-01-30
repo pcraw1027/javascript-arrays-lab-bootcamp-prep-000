@@ -18,8 +18,9 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift()
 }
 
+var newkitten = "Broom"
 function appendKitten(newkitten) {
-  var newkitten = "Broom";
+  // var newkitten = "Broom";
   [...kittens,newkitten];
 }
 
