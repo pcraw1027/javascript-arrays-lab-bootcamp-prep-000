@@ -19,7 +19,8 @@ function destructivelyRemoveFirstKitten() {
 }
 
 var newKitten = "Broom";
-function appendKitten(newKitten) {
+var newArray2
+newArray2 = function appendKitten(newKitten) {
   // var newKitten = "Broom";
   var newArray = [...kittens, newKitten];
   [...kittens, newKitten];
