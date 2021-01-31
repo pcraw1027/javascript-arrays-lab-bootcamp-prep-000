@@ -21,10 +21,10 @@ function destructivelyRemoveFirstKitten() {
 var newKitten = "Broom";
 function appendKitten(newKitten) {
   // var newKitten = "Broom";
-  // var newArray = [...kittens, newKitten];
+  var newArray = [...kittens, newKitten];
   [...kittens, newKitten];
   // kittens = [...kittens, newKitten];
-  console.log(newKitten,kittens)
+  console.log(newKitten,kittens,newArray)
 }
 
 function prependKitten(newkitten) {
