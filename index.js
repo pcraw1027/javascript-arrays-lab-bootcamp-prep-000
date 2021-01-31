@@ -24,6 +24,7 @@ function appendKitten(newKitten) {
   // var newArray = [...kittens, newKitten];
   [...kittens, newKitten];
   // kittens = [...kittens, newKitten];
+  console.log(newKitten,kittens)
 }
 
 function prependKitten(newkitten) {
