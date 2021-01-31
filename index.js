@@ -26,6 +26,7 @@ function appendKitten(newArray) {
   [...kittens, newKitten];
   // kittens = [...kittens, newKitten];
   console.log(newKitten,kittens,newArray)
+  return newArray
 }
 
 function prependKitten(newkitten) {
