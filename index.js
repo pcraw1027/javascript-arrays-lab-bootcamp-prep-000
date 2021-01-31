@@ -22,7 +22,7 @@ var newKitten = "Broom";
 var newArray2
 function appendKitten(newArray) {
   // var newKitten = "Broom";
-  var newArray = [...kittens, newKitten];
+  newArray = [...kittens, newKitten];
   [...kittens, newKitten];
   // kittens = [...kittens, newKitten];
   console.log(newKitten,kittens,newArray)
